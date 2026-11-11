@@ -1,0 +1,43 @@
+{
+  "significant_predictors": [
+    "immunecompromised",
+    "O_PSI",
+    "Na",
+    "ADL_admission"
+  ],
+  "removed_for_collinearity": [],
+  "clinical_exclusions": [
+    "ALB",
+    "Glu",
+    "TBIL",
+    "DBIL",
+    "AST",
+    "PT",
+    "APTT"
+  ],
+  "derived_ranking_candidates": [
+    "immunecompromised",
+    "O_PSI",
+    "Na",
+    "ADL_admission"
+  ],
+  "historical_ranking_candidates": [
+    "age",
+    "sex",
+    "immunecompromised",
+    "confusion",
+    "fever",
+    "RR",
+    "HR",
+    "O_PSI",
+    "Neu",
+    "Lym",
+    "Hb",
+    "CV",
+    "CRP",
+    "eGFR_new",
+    "ADL_admission",
+    "DM"
+  ],
+  "note": "Feature ranking uses the manuscript candidate set. Screening results are also recorded."
+}

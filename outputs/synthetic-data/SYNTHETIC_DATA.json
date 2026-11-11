@@ -1,0 +1,12 @@
+{
+  "synthetic": true,
+  "patient_records_used": false,
+  "seed": 42,
+  "n_retrospective": 100,
+  "n_prospective": 80,
+  "missing_rate": 0.03,
+  "outcome_encoding": "1=death;0=survival",
+  "missing_scores": false,
+  "purpose": "Demonstrate the analysis workflow using synthetic data.",
+  "scores": "Simulated comparator scores."
+}

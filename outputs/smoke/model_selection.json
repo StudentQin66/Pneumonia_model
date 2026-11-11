@@ -1,0 +1,7 @@
+{
+  "selected_by_validation_auroc": "BPNN",
+  "published_model": "LGBM",
+  "agrees_with_manuscript": false,
+  "test_labels_used_for_model_selection": false,
+  "interpretation": "LGBM is used for the prospective score comparisons, subgroup analyses, and SHAP analysis."
+}

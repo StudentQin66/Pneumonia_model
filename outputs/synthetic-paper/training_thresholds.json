@@ -1,0 +1,22 @@
+{
+  "oof_full_precision": {
+    "LR": 0.10132145172345015,
+    "RF": 0.09523620704877316,
+    "SVM": 0.10307099359417712,
+    "XGB": 0.0988598201749197,
+    "LGBM": 0.07496815970650744,
+    "GBDT": 0.104925881584455,
+    "BPNN": 0.08653386027318731
+  },
+  "heldout_rounded": {
+    "LR": 0.1013,
+    "RF": 0.0952,
+    "SVM": 0.1031,
+    "XGB": 0.0989,
+    "LGBM": 0.075,
+    "GBDT": 0.1049,
+    "BPNN": 0.0865
+  },
+  "rounding_decimals": 4,
+  "source": "main notebook training cell22 and validation cell29; prospective F2 script"
+}

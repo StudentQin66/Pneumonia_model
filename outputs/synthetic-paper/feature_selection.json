@@ -1,0 +1,32 @@
+{
+  "method": "Manuscript predictor set (seven variables)",
+  "features": [
+    "ADL_admission",
+    "Neu",
+    "O_PSI",
+    "immunecompromised",
+    "Hb",
+    "eGFR_new",
+    "Lym"
+  ],
+  "recomputed_optimal_count": 4,
+  "recomputed_predictors": [
+    "ADL_admission",
+    "eGFR_new",
+    "O_PSI",
+    "immunecompromised"
+  ],
+  "ranked_top_seven": [
+    "ADL_admission",
+    "eGFR_new",
+    "O_PSI",
+    "immunecompromised",
+    "Neu",
+    "CRP",
+    "Hb"
+  ],
+  "published_features_same_set": false,
+  "published_features_same_order": false,
+  "optimal_count_matches_published": false,
+  "note": "Final models use the manuscript predictor set. This file also records the predictors selected in the current run."
+}

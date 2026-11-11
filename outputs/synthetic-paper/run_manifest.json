@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "mode": "synthetic",
+  "profile": "paper",
+  "synthetic": true,
+  "configuration": {
+    "seed": 42,
+    "folds": 5,
+    "calibration_folds": 5,
+    "ranking_search_iterations": 5,
+    "final_search_iterations": 20,
+    "permutation_repeats": 5,
+    "feature_bootstraps": 1000,
+    "subgroup_bootstraps": 2000,
+    "subgroup_seed": 20260816,
+    "heldout_threshold_decimals": 4,
+    "n_jobs": 1,
+    "models": [
+      "LR",
+      "RF",
+      "SVM",
+      "XGB",
+      "LGBM",
+      "GBDT",
+      "BPNN"
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "system": "Darwin",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.3.1",
+      "pandas": "2.3.0",
+      "scipy": "1.16.0",
+      "scikit-learn": "1.7.0",
+      "lightgbm": "4.6.0",
+      "xgboost": "3.2.0",
+      "shap": "0.51.0",
+      "statsmodels": "0.14.6",
+      "matplotlib": "3.10.3",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "elapsed_seconds": 71.19,
+  "selected_model": "LR",
+  "feature_selection_skipped": false,
+  "shap_skipped": false,
+  "individual_record_csv_written": false,
+  "individual_mark_figures_written": true,
+  "model_weights_written": false
+}

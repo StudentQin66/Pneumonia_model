@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "folds": 3,
+  "calibration_folds": 3,
+  "ranking_search_iterations": 1,
+  "final_search_iterations": 1,
+  "permutation_repeats": 2,
+  "feature_bootstraps": 20,
+  "subgroup_bootstraps": 100,
+  "subgroup_seed": 20260816,
+  "heldout_threshold_decimals": 4,
+  "n_jobs": 1,
+  "models": ["LR", "RF", "SVM", "XGB", "LGBM", "GBDT", "BPNN"]
+}
